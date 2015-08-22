@@ -69,4 +69,19 @@ public class HexUtilities {
 
 	}
 
+	public static Hex Add( Hex h, Hex a )
+	{
+		int x = h.x + a.x;
+		int y = h.y + a.y;
+		int z = h.z + a.z;
+
+		return new Hex( x, y, z );
+
+	}
+
+	public static float Distance( Hex a, Hex b )
+	{
+		return Mathf.Max( Mathf.Abs(a.x - b.x), Mathf.Abs( a.y - b.y ), Mathf.Abs( a.z - b.z ) );
+	}
+
 }

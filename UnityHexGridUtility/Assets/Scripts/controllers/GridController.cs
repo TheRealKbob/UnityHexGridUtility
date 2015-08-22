@@ -10,10 +10,8 @@ public class GridController : MonoBehaviour, IGridController {
 	[SerializeField]
 	private GridLayout layout;
 
-	void Start()
-	{
-
-	}
+	protected IGridObject[] directions;
+	protected IGridObject[] diagonals;
 
 	public GridOrientation Orientation
 	{
@@ -27,6 +25,21 @@ public class GridController : MonoBehaviour, IGridController {
 		get{
 			return layout;
 		}
+	}
+
+	void Start()
+	{
+		
+	}
+
+	public virtual IGridObject GetNeighbor( IGridObject a, int direction )
+	{
+		return null;
+	}
+
+	public virtual IGridObject GetDiagonalNeighbor( IGridObject a, int direction )
+	{
+		return null;
 	}
 
 }
