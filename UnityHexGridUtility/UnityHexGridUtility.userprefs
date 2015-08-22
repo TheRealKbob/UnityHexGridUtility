@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\model\Hex.cs">
+    <Files>
+      <File FileName="Assets\Scripts\interfaces\IGridObject.cs" Line="8" Column="13" />
+      <File FileName="Assets\Scripts\interfaces\IGridController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\managers\GridManager.cs" Line="23" Column="30" />
+      <File FileName="Assets\Scripts\controllers\HexController.cs" Line="4" Column="44" />
+      <File FileName="Assets\Scripts\model\Hex.cs" Line="17" Column="3" />
+      <File FileName="Assets\Scripts\controllers\GridController.cs" Line="30" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
